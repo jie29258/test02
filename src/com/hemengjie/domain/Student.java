@@ -8,6 +8,7 @@ public class Student {
     private int age;
     private String name;
     private String email;
+    private String sex;
 
     public String getEmail() {
         return email;
