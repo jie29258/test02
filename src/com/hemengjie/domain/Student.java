@@ -7,6 +7,15 @@ public class Student {
     private int id;
     private int age;
     private String name;
+    private String email;
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
 
     public int getId() {
         return id;
